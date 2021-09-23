@@ -375,7 +375,8 @@ body._lock {
 }
 
 .header-logo {
-  padding-top: 20px;
+  margin-left: -34px;
+  padding-top: 28px;
 }
 
 .header-logo__title {
@@ -394,7 +395,7 @@ body._lock {
   color: #ffffff;
   font-family: "Open Sans - Condensed Bold";
   font-size: 16px;
-  margin-top: -6px;
+  margin-top: -13px;
 }
 
 .header-logo__text {
@@ -509,7 +510,7 @@ body._lock {
 .search {
   position: relative;
   width: 140px;
-  height: 35px;
+  height: 28px;
   border: 1px solid #a7a9ac;
   padding: 2px 5px;
   border-radius: 10px;
@@ -825,7 +826,7 @@ body._lock {
 }
 
 .footer-logo__subtitle {
-  margin-top: 5px;
+  margin-top: -6px;
 }
 
 .footer-info {
@@ -834,6 +835,11 @@ body._lock {
 
 .home-slider {
   position: relative;
+}
+
+.home-slider__img {
+  margin: 0 auto;
+  text-align: center;
 }
 
 .home-slider__body {
