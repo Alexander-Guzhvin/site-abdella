@@ -579,10 +579,17 @@ body._lock {
   font-family: "Open Sans - Condensed Bold";
   font-size: 16px;
   line-height: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 18px;
   text-align: center;
   background-color: #f6f6f6;
-  padding-left: 20px;
-  background: url(../img/icon-menu.png) no-repeat;
+  padding-left: 21px;
+  background: url(../img/icon-menu.png) left no-repeat;
 }
 
 .mobile-header {
@@ -885,9 +892,9 @@ body._lock {
 }
 
 .box__shadow {
-  -webkit-box-shadow: 0px -25px 33px -10px rgba(34, 60, 80, 0.2);
-          box-shadow: 0px -25px 33px -10px rgba(34, 60, 80, 0.2);
-  margin-top: -80px;
+  -webkit-box-shadow: 0px -6px 57px 38px rgba(34, 60, 80, 0.2);
+          box-shadow: 0px -6px 57px 38px rgba(34, 60, 80, 0.2);
+  margin-top: 50px;
   z-index: 2;
   background-color: white;
   position: relative;
@@ -1726,7 +1733,7 @@ body._lock {
     width: 100%;
     position: fixed;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     top: -100%;
     -webkit-transition: 0.4s all;
     -o-transition: 0.4s all;
@@ -1737,7 +1744,6 @@ body._lock {
   }
 
   .menu__body._active {
-    right: 0;
     top: 0;
   }
 
@@ -2184,7 +2190,7 @@ body._lock {
 
 .webp .header-location__table{ background: url(../img/table-bg.webp) top -9px center no-repeat; }
 
-.webp .icon-menu{ background: url(../img/icon-menu.webp) no-repeat; }
+.webp .icon-menu{ background: url(../img/icon-menu.webp) left no-repeat; }
 
 .webp .mobile-header__law{ background: url(../img/icon-c.webp) no-repeat; }
 
