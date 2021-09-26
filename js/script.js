@@ -61,7 +61,7 @@ new Swiper('.home-slider__swiper', {
 
 new Swiper('.reviews__swiper', {
     autoplay:{
-        delay:2000,
+        delay:3000,
         stopOnLastSlide:true,
     },
     navigation: {

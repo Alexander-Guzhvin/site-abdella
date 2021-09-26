@@ -1219,10 +1219,6 @@ body._lock {
   overflow: hidden;
 }
 
-.reviews__wrapper {
-  width: 900px;
-}
-
 .reviews__left {
   position: absolute;
   left: 150px;
@@ -1297,6 +1293,7 @@ body._lock {
 
 .slide-reviews__body {
   width: 400px;
+  max-width: 100%;
 }
 
 .slide-reviews__model {
