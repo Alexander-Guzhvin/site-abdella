@@ -48,7 +48,7 @@ $(document).ready(function(){
 
 new Swiper('.home-slider__swiper', {
     autoplay:{
-        delay:1500,
+        delay:3000,
         disableOnInteraction: false
     },
     pagination:{
@@ -65,7 +65,7 @@ new Swiper('.home-slider__swiper', {
 
 new Swiper('.reviews__swiper', {
     autoplay:{
-        delay:3500,
+        delay:4500,
         disableOnInteraction: false
     },
     navigation: {
