@@ -49,25 +49,31 @@ $(document).ready(function(){
 new Swiper('.home-slider__swiper', {
     autoplay:{
         delay:1500,
-        stopOnLastSlide:true,
+        disableOnInteraction: false
     },
     pagination:{
         el: '.swiper-pagination',
-
         clickable: true,
-    }
-
+    },
+    loop:true,
+    speed:700,
+    navigation: {
+        nextEl: '.home-slider__btn-right',
+        prevEl: '.home-slider__btn-left'
+    },
 });
 
 new Swiper('.reviews__swiper', {
     autoplay:{
-        delay:3000,
-        stopOnLastSlide:true,
+        delay:3500,
+        disableOnInteraction: false
     },
     navigation: {
         nextEl: '.btn-right',
         prevEl: '.btn-left'
     },
+    loop:true,
+    speed:700,
     slidesPerView: 1,
     breakpoints: {
         1200: {
