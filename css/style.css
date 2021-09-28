@@ -159,7 +159,6 @@ h6 {
 body {
   font-size: 14px;
   color: #000000;
-  zoom: 90%;
 }
 
 body._lock {
@@ -1856,6 +1855,12 @@ body._lock {
 @media (min-width: 751px) {
   .catalog__content {
     margin-top: -30px;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    zoom: 90%;
   }
 }
 
